@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de Tela</title>
 
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+
+                -size ainda não está funcionando
+             */
+
+             background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+             background-size: cover;
+
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +41,9 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem a nostrum quam explicabo, laudantium quas illum commodi delectus hic quo molestiae ipsam iste earum suscipit at, voluptas doloribus expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos placeat nemo nesciunt itaque. Assumenda, delectus quas? Et dolorem velit mollitia illo in voluptatibus nesciunt nisi ab? Vitae aspernatur delectus totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in natus mollitia. Iste neque unde soluta voluptate natus error dolorem eius, aut nulla, rerum numquam aliquid consequuntur debitis voluptatum quos!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque excepturi voluptatum voluptatem debitis quaerat animi aperiam maiores labore error, architecto reprehenderit corporis blanditiis ducimus fuga esse possimus voluptates. Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est doloribus placeat possimus! Labore nihil nostrum magnam modi accusamus totam aliquid voluptatibus suscipit possimus error nobis, nesciunt praesentium tempore pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque adipisci impedit, repellendus ducimus quis provident, dolorem voluptatem itaque assumenda, consequuntur eos. Nulla illum quidem ullam maiores ducimus debitis doloremque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque excepturi voluptatum voluptatem debitis quaerat animi aperiam maiores labore error, architecto reprehenderit corporis blanditiis ducimus fuga esse possimus voluptates. Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est doloribus placeat possimus! Labore nihil nostrum magnam modi accusamus totam aliquid voluptatibus suscipit possimus error nobis, nesciunt praesentium tempore pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque adipisci impedit, repellendus ducimus quis provident, dolorem voluptatem itaque assumenda, consequuntur eos. Nulla illum quidem ullam maiores ducimus debitis doloremque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet itaque excepturi voluptatum voluptatem debitis quaerat animi aperiam maiores labore error, architecto reprehenderit corporis blanditiis ducimus fuga esse possimus voluptates. Mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab est doloribus placeat possimus! Labore nihil nostrum magnam modi accusamus totam aliquid voluptatibus suscipit possimus error nobis, nesciunt praesentium tempore pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque adipisci impedit, repellendus ducimus quis provident, dolorem voluptatem itaque assumenda, consequuntur eos. Nulla illum quidem ullam maiores ducimus debitis doloremque!</p>
     </main>
 </body>
 </html>
